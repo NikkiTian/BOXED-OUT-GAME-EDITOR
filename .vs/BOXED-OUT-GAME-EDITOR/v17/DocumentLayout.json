@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\BOXED-OUT-GAME-EDITOR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{176ADA29-D694-6590-C351-80D9E104364B}|Assembly-CSharp-Editor.csproj|d:\\unityprojects\\boxed-out-game-editor\\assets\\editor\\boxedoutbrushverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{176ADA29-D694-6590-C351-80D9E104364B}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\boxedoutbrushverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{176ADA29-D694-6590-C351-80D9E104364B}|Assembly-CSharp-Editor.csproj|d:\\unityprojects\\boxed-out-game-editor\\assets\\editor\\boxedoutlevelpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{176ADA29-D694-6590-C351-80D9E104364B}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\boxedoutlevelpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{176ADA29-D694-6590-C351-80D9E104364B}|Assembly-CSharp-Editor.csproj|d:\\unityprojects\\boxed-out-game-editor\\assets\\editor\\boxedoutlevelcopies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{176ADA29-D694-6590-C351-80D9E104364B}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\boxedoutlevelcopies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{176ADA29-D694-6590-C351-80D9E104364B}|Assembly-CSharp-Editor.csproj|d:\\unityprojects\\boxed-out-game-editor\\assets\\editor\\boxedoutleveleditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{176ADA29-D694-6590-C351-80D9E104364B}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\boxedoutleveleditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoxedOutLevelPreview.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\BOXED-OUT-GAME-EDITOR\\Assets\\Editor\\BoxedOutLevelPreview.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\BoxedOutLevelPreview.cs",
+              "ToolTip": "D:\\UnityProjects\\BOXED-OUT-GAME-EDITOR\\Assets\\Editor\\BoxedOutLevelPreview.cs",
+              "RelativeToolTip": "Assets\\Editor\\BoxedOutLevelPreview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T16:19:26.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BoxedOutBrushVerification.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\BOXED-OUT-GAME-EDITOR\\Assets\\Editor\\BoxedOutBrushVerification.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\BoxedOutBrushVerification.cs",
+              "ToolTip": "D:\\UnityProjects\\BOXED-OUT-GAME-EDITOR\\Assets\\Editor\\BoxedOutBrushVerification.cs",
+              "RelativeToolTip": "Assets\\Editor\\BoxedOutBrushVerification.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwDgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T16:19:20.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoxedOutLevelCopies.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\BOXED-OUT-GAME-EDITOR\\Assets\\Editor\\BoxedOutLevelCopies.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\BoxedOutLevelCopies.cs",
+              "ToolTip": "D:\\UnityProjects\\BOXED-OUT-GAME-EDITOR\\Assets\\Editor\\BoxedOutLevelCopies.cs",
+              "RelativeToolTip": "Assets\\Editor\\BoxedOutLevelCopies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T16:19:11.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BoxedOutLevelEditorWindow.cs",
               "DocumentMoniker": "D:\\UnityProjects\\BOXED-OUT-GAME-EDITOR\\Assets\\Editor\\BoxedOutLevelEditorWindow.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\BoxedOutLevelEditorWindow.cs",
               "ToolTip": "D:\\UnityProjects\\BOXED-OUT-GAME-EDITOR\\Assets\\Editor\\BoxedOutLevelEditorWindow.cs",
               "RelativeToolTip": "Assets\\Editor\\BoxedOutLevelEditorWindow.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAADwv5gAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwJgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-27T06:39:28.018Z",
               "EditorCaption": ""

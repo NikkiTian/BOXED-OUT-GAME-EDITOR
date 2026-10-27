@@ -61,13 +61,14 @@ public class BoxedOutLevelEditorWindow : EditorWindow
         { painting = false; e.Use(); Repaint(); return; }
         if (e.alt || Tools.current == Tool.View) return;
         var map = manager.InteractablesTmap;
-        var plane = new Plane(Vector3.up, map.transform.position);
+        bool floorBrush = (BoxedOutLevelBrush.Kind)selectedKind == BoxedOutLevelBrush.Kind.Floor;
+        var plane = new Plane(Vector3.up, map.transform.position + (floorBrush ? Vector3.down : Vector3.zero));
         var ray = HandleUtility.GUIPointToWorldRay(e.mousePosition);
         float distance;
         if (!plane.Raycast(ray, out distance)) return;
         var cell = map.WorldToCell(ray.GetPoint(distance));
         cell.z = 0;
-        var center = GridController.GridToWorldPos(map, cell);
+        var center = floorBrush ? BoxedOutLevelBrush.FloorPosition(manager, cell) : GridController.GridToWorldPos(map, cell);
         Handles.color = erasing ? Color.red : Color.green;
         Handles.DrawWireCube(center, new Vector3(map.cellSize.x, .06f, map.cellSize.y));
         Handles.Label(center, string.Format("{0} ({1}, {2})", erasing ? "擦除" : "放置", cell.x, cell.y));
@@ -105,10 +106,17 @@ public class BoxedOutLevelEditorWindow : EditorWindow
         {
             using (new EditorGUI.DisabledScope(EditorApplication.isPlayingOrWillChangePlaymode))
             {
-                selectedKind = GUILayout.Toolbar(selectedKind, new[] { "墙", "箱子", "目标点", "玩家" });
+                if (GUILayout.Button("另存为新关卡…"))
+                {
+                    painting = false;
+                    BoxedOutLevelCopies.SaveCurrentCopy();
+                }
+                if (GUILayout.Button("试玩当前关卡")) { painting = false; BoxedOutLevelPreview.Start(); }
+                EditorGUILayout.HelpBox("试玩：R 重开；HOME/MENU 或通关后返回编辑器；也可按顶部 Play 停止。", MessageType.None);
+                selectedKind = GUILayout.Toolbar(selectedKind, new[] { "墙", "箱子", "目标点", "玩家", "地板" });
                 erasing = GUILayout.Toolbar(erasing ? 1 : 0, new[] { "放置", "擦除所选类型" }) == 1;
                 painting = EditorGUILayout.ToggleLeft("启用 Scene 网格画笔", painting);
-                EditorGUILayout.HelpBox("玩家工具只移动已有出生点。擦除只影响所选类型。当前不生成地面，请在现有地图范围内编辑。", MessageType.None);
+                EditorGUILayout.HelpBox("地板使用 Floor 预制体，高度比物件低 1 格（Y - 1）。擦除地板不会删除上层物件。玩家工具只移动已有出生点。", MessageType.None);
                 if (!string.IsNullOrEmpty(brushMessage)) EditorGUILayout.HelpBox(brushMessage, MessageType.Info);
             }
             EditorGUILayout.LabelField("玩家", report.Players.ToString());

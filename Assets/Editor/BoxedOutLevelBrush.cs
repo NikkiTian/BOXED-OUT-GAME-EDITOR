@@ -6,7 +6,50 @@ using UnityEngine;
 
 public static class BoxedOutLevelBrush
 {
-    public enum Kind { Wall, Box, Goal, Player }
+    public enum Kind { Wall, Box, Goal, Player, Floor }
+    public const string FloorPrefabPath = "Assets/3D Models/Prefabs/Floor.prefab";
+
+    public static Vector3 FloorPosition(LevelManager m, Vector3Int cell)
+    {
+        // Existing XZY levels use one-unit cells; floor roots are Y=-1, actors Y=0.
+        return GridController.GridToWorldPos(m.InteractablesTmap, cell) + Vector3.down;
+    }
+
+    private static string ApplyFloor(LevelManager m, Vector3Int cell, bool erase)
+    {
+        var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(FloorPrefabPath);
+        if (prefab == null) return "找不到 Floor 预制体，未修改关卡。";
+        var position = FloorPosition(m, cell);
+        var floors = m.gameObject.scene.GetRootGameObjects()
+            .SelectMany(r => r.GetComponentsInChildren<Transform>(true))
+            .Where(t => PrefabUtility.IsAnyPrefabInstanceRoot(t.gameObject) &&
+                PrefabUtility.GetPrefabAssetPathOfNearestInstanceRoot(t.gameObject) == FloorPrefabPath).ToArray();
+        var targets = floors.Where(t => (t.position - position).sqrMagnitude < .0001f).ToArray();
+        if (!erase && targets.Length > 0) return "此格已有地板。";
+        if (erase && targets.Length == 0) return "此格没有 Floor 地板。";
+        Undo.IncrementCurrentGroup();
+        int group = Undo.GetCurrentGroup();
+        Undo.SetCurrentGroupName(erase ? "擦除地板" : "放置地板");
+        try
+        {
+            if (erase)
+                foreach (var target in targets) Undo.DestroyObjectImmediate(target.gameObject);
+            else
+            {
+                var parent = floors.FirstOrDefault(t => t.parent != null && t.parent != m.InteractablesTmap.transform)?.parent;
+                if (parent == null) parent = m.InteractablesTmap.transform.parent;
+                var obj = (GameObject)PrefabUtility.InstantiatePrefab(prefab, m.gameObject.scene);
+                Undo.RegisterCreatedObjectUndo(obj, "放置地板");
+                if (parent != null) Undo.SetTransformParent(obj.transform, parent, "地板分组");
+                Undo.RecordObject(obj.transform, "地板高度对齐");
+                obj.transform.position = position;
+                PrefabUtility.RecordPrefabInstancePropertyModifications(obj.transform);
+            }
+            EditorSceneManager.MarkSceneDirty(m.gameObject.scene);
+        }
+        finally { Undo.CollapseUndoOperations(group); }
+        return erase ? "已擦除地板，上层物件保留；可 Ctrl+Z 撤销。" : "已放置地板（低于物件 1 格）；可 Ctrl+Z 撤销。";
+    }
 
     public static LevelManager Current()
     {
@@ -27,6 +70,7 @@ public static class BoxedOutLevelBrush
             map.transform.rotation != Quaternion.identity || map.transform.lossyScale != Vector3.one)
             return "当前画笔仅支持现有关卡的 XZY、无旋转、单位缩放网格。";
         cell.z = 0;
+        if (kind == Kind.Floor) return ApplyFloor(m, cell, erase);
         var players = m.gameObject.scene.GetRootGameObjects().SelectMany(r => r.GetComponentsInChildren<PlayerController>()).ToArray();
         if (kind == Kind.Player && players.Length != 1) return "移动出生点前，场景必须有且仅有一个玩家。";
         if (kind == Kind.Player && erase) return "玩家不能擦除；选择玩家工具点击空格移动出生点。";

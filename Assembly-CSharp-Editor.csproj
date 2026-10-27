@@ -62,7 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Editor\BoxedOutLevelPreview.cs" />
     <Compile Include="Assets\Editor\BoxedOutBrushVerification.cs" />
+    <Compile Include="Assets\Editor\BoxedOutLevelCopies.cs" />
+    <Compile Include="Assets\Editor\BoxedOutCustomTitle.cs" />
     <Compile Include="Assets\Editor\BoxedOutLevelBrush.cs" />
     <Compile Include="Assets\Editor\BoxedOutLevelEditorWindow.cs" />
   </ItemGroup>

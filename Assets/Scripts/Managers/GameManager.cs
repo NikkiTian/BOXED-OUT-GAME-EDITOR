@@ -6,6 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+#if UNITY_EDITOR
+    public static string EditorPreviewPath;
+    public void BeginEditorPreview(string path)
+    {
+        EditorPreviewPath = path;
+        currentSceneIndex = 1; trueCurrentSceneIndex = 1;
+        currentGameStage = GameStage.InGame;
+        UnityEditor.SceneManagement.EditorSceneManager.LoadSceneInPlayMode(path, new LoadSceneParameters(LoadSceneMode.Single));
+    }
+#endif
     #region Instance Setup 
     public static GameManager Instance { get; private set; }
     #endregion
@@ -186,6 +196,9 @@ public class GameManager : MonoBehaviour
 
     public void UpdateScene()
     {
+#if UNITY_EDITOR
+        if (!string.IsNullOrEmpty(EditorPreviewPath)) { UnityEditor.EditorApplication.isPlaying = false; return; }
+#endif
         currentSceneIndex++;
         trueCurrentSceneIndex++;
 
@@ -211,6 +224,9 @@ public class GameManager : MonoBehaviour
 
     public void GoToMenu()
     {
+#if UNITY_EDITOR
+        if (!string.IsNullOrEmpty(EditorPreviewPath)) { UnityEditor.EditorApplication.isPlaying = false; return; }
+#endif
         trueCurrentSceneIndex = currentSceneIndex;
         currentSceneIndex = 0;
         SceneManager.LoadScene(Scenes[currentSceneIndex]);
@@ -251,6 +267,13 @@ public class GameManager : MonoBehaviour
     {
         if (restart.WasPressedThisFrame())
         {
+#if UNITY_EDITOR
+            if (!string.IsNullOrEmpty(EditorPreviewPath))
+            {
+                UnityEditor.SceneManagement.EditorSceneManager.LoadSceneInPlayMode(EditorPreviewPath, new LoadSceneParameters(LoadSceneMode.Single));
+                return;
+            }
+#endif
             Debug.Log($"Scene {Scenes[currentSceneIndex]} is going to be reloaded");
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
