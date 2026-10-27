@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|c:\\users\\weigh\\dropbox\\boxed out\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|c:\\users\\weigh\\dropbox\\boxed out\\assets\\scripts\\managers\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\ui\\inputfieldform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\inputfieldform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\ui\\buttonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\buttonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\Panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\UI\\Panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\ui\\leveltitlecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\leveltitlecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\arduino\\serialtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arduino\\serialtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\ui\\parallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\parallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\donotdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\donotdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\arduino\\serialread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arduino\\serialread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|C:\\Users\\weigh\\Dropbox\\BOXED OUT\\assets\\scripts\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED49E74-0E99-D113-4861-DA747C146E81}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Managers\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SoundManager.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Managers\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\SoundManager.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAAAAkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T18:56:59.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Panel.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\Panel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Panel.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\Panel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Panel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:36:22.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\LevelManager.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\LevelManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAHUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:36:56.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ViewState": "AgIAAJABAAAAAAAAAAAAAKUBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:36:56.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DoNotDestroy.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\DoNotDestroy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoNotDestroy.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\DoNotDestroy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoNotDestroy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:36:56.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputFieldForm.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\InputFieldForm.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\InputFieldForm.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\InputFieldForm.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\InputFieldForm.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:36:56.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ButtonForm.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\ButtonForm.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ButtonForm.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\ButtonForm.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ButtonForm.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAALQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:36:56.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SerialTest.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Arduino\\SerialTest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arduino\\SerialTest.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Arduino\\SerialTest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arduino\\SerialTest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPYxgFEHDjxY3/Xqvc/wtO5P1vvdji/40X1/9DpcBg3rm5cD4yGw6sF5v/bz7UAJZoAtIgw8ASUAAyGMpEYYMAI4gACb7P/wxmg4DuXM3/l5OvM4JsKz5cABVFBa6y7gyrgtZA9KCbig7wuYAJSpMNsBoA8gKIBnkBZiOIRmaHrQtBuMQTGGjNhxvBAk1AGhQTYAkoQHY2MhsOQNFotcgcbIPnSjfSo3FEAwYGAA95Yu3hOJS9AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-28T05:36:56.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Goal.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Goal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Goal.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Goal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Goal.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwEUAAAA7AAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPYxgFEHDjxY3/Xqvc/wtO5P1vvdji/40X1/9DpcBg3rm5cD4yGw6sF5v/bz7UAJZoAtIgw8ASUAAyGMpEYYMAI4gACb7P/wxmg4DuXM3/l5OvM4JsKz5cABVFBa6y7gyrgtZA9KCbig7wuYAJSpMNsBoA8gKIBnkBZiOIRmaHrQtBuMQTGGjNhxvBAk1AGhQTYAkoQHY2MhsOQNFotcgcbIPnSjfSo3FEAwYGAA95Yu3hOJS9AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-28T05:36:56.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:36:56.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Parallax.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\Parallax.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Parallax.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\Parallax.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Parallax.cs",
+              "ViewState": "AgIAABIAAABAMxtkknkfwBQAAAAFAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPYxgFEHDjxY3/Xqvc/wtO5P1vvdji/40X1/9DpcBg3rm5cD4yGw6sF5v/bz7UAJZoAtIgw8ASUAAyGMpEYYMAI4gACb7P/wxmg4DuXM3/l5OvM4JsKz5cABVFBa6y7gyrgtZA9KCbig7wuYAJSpMNsBoA8gKIBnkBZiOIRmaHrQtBuMQTGGjNhxvBAk1AGhQTYAkoQHY2MhsOQNFotcgcbIPnSjfSo3FEAwYGAA95Yu3hOJS9AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-28T05:36:56.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LevelTitleCard.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\LevelTitleCard.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LevelTitleCard.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\UI\\LevelTitleCard.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\LevelTitleCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPYxgFEHDjxY3/Xqvc/wtO5P1vvdji/40X1/9DpcBg3rm5cD4yGw6sF5v/bz7UAJZoAtIgw8ASUAAyGMpEYYMAI4gACb7P/wxmg4DuXM3/l5OvM4JsKz5cABVFBa6y7gyrgtZA9KCbig7wuYAJSpMNsBoA8gKIBnkBZiOIRmaHrQtBuMQTGGjNhxvBAk1AGhQTYAkoQHY2MhsOQNFotcgcbIPnSjfSo3FEAwYGAA95Yu3hOJS9AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-28T17:40:01.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SerialRead.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Arduino\\SerialRead.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arduino\\SerialRead.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\Arduino\\SerialRead.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arduino\\SerialRead.cs",
+              "ViewState": "AgIAAI0AAACAkuumlIsowBcAAAAeAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPYxgFEHDjxY3/Xqvc/wtO5P1vvdji/40X1/9DpcBg3rm5cD4yGw6sF5v/bz7UAJZoAtIgw8ASUAAyGMpEYYMAI4gACb7P/wxmg4DuXM3/l5OvM4JsKz5cABVFBa6y7gyrgtZA9KCbig7wuYAJSpMNsBoA8gKIBnkBZiOIRmaHrQtBuMQTGGjNhxvBAk1AGhQTYAkoQHY2MhsOQNFotcgcbIPnSjfSo3FEAwYGAA95Yu3hOJS9AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-28T05:36:56.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\weigh\\Dropbox\\BOXED OUT\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPYxgFEHDjxY3/Xqvc/wtO5P1vvdji/40X1/9DpcBg3rm5cD4yGw6sF5v/bz7UAJZoAtIgw8ASUAAyGMpEYYMAI4gACb7P/wxmg4DuXM3/l5OvM4JsKz5cABVFBa6y7gyrgtZA9KCbig7wuYAJSpMNsBoA8gKIBnkBZiOIRmaHrQtBuMQTGGjNhxvBAk1AGhQTYAkoQHY2MhsOQNFotcgcbIPnSjfSo3FEAwYGAA95Yu3hOJS9AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-03-28T05:36:56.628Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UnityProjects\\BOXED-OUT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D6DD78-8148-31CA-8B48-EE57202D70F8}|Assembly-CSharp-Editor.csproj|d:\\unityprojects\\boxed-out\\assets\\editor\\boxedoutleveleditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D6DD78-8148-31CA-8B48-EE57202D70F8}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\boxedoutleveleditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA00876-C00E-7F3B-3B7B-432B4DB71E18}|Assembly-CSharp.csproj|d:\\unityprojects\\boxed-out\\assets\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA00876-C00E-7F3B-3B7B-432B4DB71E18}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA00876-C00E-7F3B-3B7B-432B4DB71E18}|Assembly-CSharp.csproj|d:\\unityprojects\\boxed-out\\assets\\scripts\\ui\\buttonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA00876-C00E-7F3B-3B7B-432B4DB71E18}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\buttonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA00876-C00E-7F3B-3B7B-432B4DB71E18}|Assembly-CSharp.csproj|D:\\UnityProjects\\BOXED-OUT\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA00876-C00E-7F3B-3B7B-432B4DB71E18}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA00876-C00E-7F3B-3B7B-432B4DB71E18}|Assembly-CSharp.csproj|D:\\UnityProjects\\BOXED-OUT\\assets\\scripts\\donotdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA00876-C00E-7F3B-3B7B-432B4DB71E18}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\donotdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoxedOutLevelEditorWindow.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Editor\\BoxedOutLevelEditorWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\BoxedOutLevelEditorWindow.cs",
+              "ToolTip": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Editor\\BoxedOutLevelEditorWindow.cs",
+              "RelativeToolTip": "Assets\\Editor\\BoxedOutLevelEditorWindow.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwBgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T01:49:04.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\LevelManager.cs",
+              "ToolTip": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\LevelManager.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAA2wHEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T01:48:29.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoNotDestroy.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Scripts\\DoNotDestroy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoNotDestroy.cs",
+              "ToolTip": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Scripts\\DoNotDestroy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoNotDestroy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T00:22:51.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ToolTip": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAALAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T00:12:03.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonForm.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Scripts\\UI\\ButtonForm.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ButtonForm.cs",
+              "ToolTip": "D:\\UnityProjects\\BOXED-OUT\\Assets\\Scripts\\UI\\ButtonForm.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ButtonForm.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAABQwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T00:01:51.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
