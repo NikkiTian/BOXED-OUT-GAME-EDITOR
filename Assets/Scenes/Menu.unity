@@ -1319,6 +1319,22 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7276048851015005141, guid: 42af07ab15af592478490ff8f3863386, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 243135d05dece684baf1de41e7599bb4, type: 3}
+    - target: {fileID: 7276048851015005141, guid: 42af07ab15af592478490ff8f3863386, type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 243135d05dece684baf1de41e7599bb4, type: 3}
+    - target: {fileID: 7276048851015005141, guid: 42af07ab15af592478490ff8f3863386, type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 243135d05dece684baf1de41e7599bb4, type: 3}
+    - target: {fileID: 7276048851015005141, guid: 42af07ab15af592478490ff8f3863386, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 243135d05dece684baf1de41e7599bb4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

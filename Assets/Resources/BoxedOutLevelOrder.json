@@ -1,0 +1,16 @@
+{
+    "levels": [
+        "Assets/Scenes/Lvl1.unity",
+        "Assets/Scenes/Lvl2.unity",
+        "Assets/Scenes/Lvl1_Custom.unity",
+        "Assets/Scenes/Lvl3.unity",
+        "Assets/Scenes/Lvl4.unity"
+    ],
+    "guids": [
+        "99c9720ab356a0642a771bea13969a05",
+        "80c2e414f84af43428d8012cac104a1a",
+        "94ef6bc33f4272b4aafb52d19dc56b39",
+        "850d72b8c1086b54991d8993bf341907",
+        "f5950ee30df7d694d9f6844840dac9ad"
+    ]
+}

@@ -16,6 +16,8 @@ public class BoxedOutLevelEditorWindow : EditorWindow
         public readonly List<string> Notes = new List<string>();
     }
 
+    private int page;
+    private BoxedOutLevelOrderEditor levelOrder;
     private CheckResult report;
     private Vector2 scroll;
     private bool painting;
@@ -91,6 +93,16 @@ public class BoxedOutLevelEditorWindow : EditorWindow
     private void OnGUI()
     {
         EditorGUILayout.LabelField("BOXED-OUT · 关卡编辑器", EditorStyles.boldLabel);
+        page = GUILayout.Toolbar(page, new[] { "关卡编辑", "关卡顺序" });
+        if (page == 1)
+        {
+            painting = false;
+            if (levelOrder == null) levelOrder = new BoxedOutLevelOrderEditor();
+            scroll = EditorGUILayout.BeginScrollView(scroll);
+            levelOrder.Draw();
+            EditorGUILayout.EndScrollView();
+            return;
+        }
         EditorGUILayout.HelpBox("启用画笔后，在 Scene 视图单击网格编辑。Ctrl+Z 撤销，Esc 关闭画笔；不会自动保存。", MessageType.Info);
         if (EditorApplication.isPlaying)
             EditorGUILayout.HelpBox("正在显示运行中的状态；请退出 Play 后检查初始关卡。", MessageType.Warning);
@@ -181,3 +193,4 @@ public class BoxedOutLevelEditorWindow : EditorWindow
         return result;
     }
 }
+

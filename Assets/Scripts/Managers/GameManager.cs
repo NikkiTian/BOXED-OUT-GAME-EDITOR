@@ -104,6 +104,8 @@ public class GameManager : MonoBehaviour
         else
         {
             Instance = this;
+            var orderedScenes = BoxedOutLevelOrder.LoadScenes();
+            if (orderedScenes != null) Scenes = orderedScenes;
             // Persistent objects must be roots. Keep the input/game state alive
             // when the menu scene is replaced by a level.
             transform.SetParent(null);
@@ -420,3 +422,4 @@ public class GameManager : MonoBehaviour
         Destroy(inputNotificationPrefabInstance);
     }
 }
+
