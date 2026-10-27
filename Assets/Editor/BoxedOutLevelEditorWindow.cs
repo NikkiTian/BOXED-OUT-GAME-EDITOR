@@ -121,8 +121,6 @@ public class BoxedOutLevelEditorWindow : EditorWindow
                 EditorGUILayout.HelpBox("已通过本阶段的基础结构检查。", MessageType.Info);
         }
         EditorGUILayout.Space();
-        EditorGUILayout.LabelField("本阶段未检查：地图边界、格子重叠、关卡可解性。", EditorStyles.wordWrappedLabel);
-        EditorGUILayout.LabelField("后续步骤：另存关卡 → 试玩。", EditorStyles.wordWrappedLabel);
         EditorGUILayout.EndScrollView();
     }
 
@@ -172,7 +170,6 @@ public class BoxedOutLevelEditorWindow : EditorWindow
         if (goals.Any(g => !validReferences.Contains(g.gameObject)) ||
             validReferences.Any(g => g.scene != scene || !goals.Any(goal => goal.gameObject == g)))
             result.Issues.Add("Goals 列表与场景中启用的目标点不一致，可能影响通关判定。");
-        result.Notes.Add("直接试玩需要 GameManager；本阶段尚未加入独立试玩入口。");
         return result;
     }
 }

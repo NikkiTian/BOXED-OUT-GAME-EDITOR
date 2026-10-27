@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2EEF8D0E-1D4B-6778-5982-843E65B0266F}</ProjectGuid>
+    <ProjectGuid>{AA95B0DD-36E5-3F32-D0AB-02AC0747B1B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.RenderPipelines.Universal.Runtime</AssemblyName>
@@ -879,16 +879,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@4edfcc09512f\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@4edfcc09512f\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
@@ -1402,35 +1402,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{55BD4305-A07F-3EE8-9990-963FF83A1A20}</Project>
+      <Project>{EDE22875-A29E-2FA0-C6B1-D71619B58EE3}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj">
-      <Project>{8965A280-C8D7-7506-E9D9-9275B3EEA64E}</Project>
+      <Project>{C5F26521-880E-6956-7422-1D34924CDCB4}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{DE58204B-2A20-0DEA-9C41-5A6AC15F0DBE}</Project>
+      <Project>{1F75B33D-38E0-B5CE-51A7-7EF5F3FC7362}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.csproj">
-      <Project>{1DF19350-FB0B-645E-3581-BB6B76DDD50A}</Project>
+      <Project>{B5318206-79E0-8028-CAF5-1F9818C5BC82}</Project>
       <Name>Unity.RenderPipelines.GPUDriven.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
-      <Project>{4230F49D-746C-5E68-55B6-021518F002FF}</Project>
+      <Project>{4B11027E-28FE-F83F-BDCF-A8135EBD950C}</Project>
       <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.UnifiedRayTracing.Runtime.csproj">
-      <Project>{EABB03BE-6F83-7F4E-C6A5-D51DAA90B74C}</Project>
+      <Project>{15D1EC59-B22B-3F10-2E2B-A95FA051E1A5}</Project>
       <Name>Unity.UnifiedRayTracing.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{5214D945-1396-713C-8E2C-F275FFFA077E}</Project>
+      <Project>{3FA6FE3C-1ACB-48D7-E2EA-C999665084D8}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{53B4DE4B-8D66-750D-ED7A-6309938088CB}</Project>
+      <Project>{62DAA43F-8977-7C0E-B022-768CC9900887}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

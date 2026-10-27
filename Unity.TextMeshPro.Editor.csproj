@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E78CA975-28C5-5045-0BBA-C892CAF42057}</ProjectGuid>
+    <ProjectGuid>{849A59FA-1EF9-0ED6-EE95-C86C35386032}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TextMeshPro.Editor</AssemblyName>
@@ -725,16 +725,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@4edfcc09512f\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@4edfcc09512f\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
@@ -1240,27 +1240,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{6EDF0055-601B-B450-57D5-D337A78D2185}</Project>
+      <Project>{89E264D6-A4BA-7CD9-4B64-9CD3C21E467C}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{55BD4305-A07F-3EE8-9990-963FF83A1A20}</Project>
+      <Project>{EDE22875-A29E-2FA0-C6B1-D71619B58EE3}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{5214D945-1396-713C-8E2C-F275FFFA077E}</Project>
+      <Project>{3FA6FE3C-1ACB-48D7-E2EA-C999665084D8}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{53B4DE4B-8D66-750D-ED7A-6309938088CB}</Project>
+      <Project>{62DAA43F-8977-7C0E-B022-768CC9900887}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{55D29E3C-17A0-7BAC-36B1-DB10ABE6E6A5}</Project>
+      <Project>{53471B43-8A6D-DEC2-E358-5A6F4A5BAC69}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{1CFA15E1-8015-F2D5-6F16-FF82F42B0A65}</Project>
+      <Project>{0BCD309D-91C5-795F-737F-621EBC2CAFB4}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{48C4E11F-37DE-19DC-97C8-CF1C0D430679}</ProjectGuid>
+    <ProjectGuid>{928B9127-D55D-9622-A174-A6444388EF7B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PPv2URPConverters</AssemblyName>
@@ -682,16 +682,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@4edfcc09512f\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@4edfcc09512f\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
@@ -1197,35 +1197,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{1BC2C7E5-71F8-81ED-61EA-A3B37AB3E9E8}</Project>
+      <Project>{85FEAF0A-DBDD-509F-8DFE-E7D9B38C9AE7}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{2EEF8D0E-1D4B-6778-5982-843E65B0266F}</Project>
+      <Project>{AA95B0DD-36E5-3F32-D0AB-02AC0747B1B5}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{17088404-AAA1-DFFE-91C5-947A9B239FE0}</Project>
+      <Project>{2D38B750-F28A-7E85-862E-40E890B3E0DE}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{55BD4305-A07F-3EE8-9990-963FF83A1A20}</Project>
+      <Project>{EDE22875-A29E-2FA0-C6B1-D71619B58EE3}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{5214D945-1396-713C-8E2C-F275FFFA077E}</Project>
+      <Project>{3FA6FE3C-1ACB-48D7-E2EA-C999665084D8}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{53B4DE4B-8D66-750D-ED7A-6309938088CB}</Project>
+      <Project>{62DAA43F-8977-7C0E-B022-768CC9900887}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{55D29E3C-17A0-7BAC-36B1-DB10ABE6E6A5}</Project>
+      <Project>{53471B43-8A6D-DEC2-E358-5A6F4A5BAC69}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{1CFA15E1-8015-F2D5-6F16-FF82F42B0A65}</Project>
+      <Project>{0BCD309D-91C5-795F-737F-621EBC2CAFB4}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
